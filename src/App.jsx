@@ -11,7 +11,7 @@ function App() {
       Name: name
     }
 
-    axios.post('https://db-backend-mlt8.onrender.com/crt', data)
+    axios.post('https://database-mern.vercel.app/crt', data)
       .then(alert('success'))
       .catch(err => console.log(err)
       )
