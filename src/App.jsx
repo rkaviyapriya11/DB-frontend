@@ -11,17 +11,12 @@ function App() {
       Name: name
     }
 
-    // axios.post('https://db-backend-mlt8.onrender.com/crt', data)
-    //   .then(alert('success'))
-    // setname('')
-    //   .catch(err => console.log(err)
-    //   )
     axios.post('https://db-backend-mlt8.onrender.com/crt', data)
-      .then(response => {
-        alert('Success');  // Shows success message after successful request
-        setname('');       // Clears the input field
-      })
-      .catch(err => console.log(err));  // Logs error if request fails
+      .then(alert('success'))
+    setname('')
+      .catch(err => console.log(err)
+      )
+
 
   }
 
